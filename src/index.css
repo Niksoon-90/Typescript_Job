@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.header{
+  background-color: #26a69a;
+}
 .px1{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -31,9 +34,15 @@ code {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  padding: 1rem;
+  padding: 0.5rem;
   background: #f3f3f3;
 }
 .todo i {
   z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+  nav .brand-logo {
+    display: none;
+  }
 }
